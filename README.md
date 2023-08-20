@@ -16,4 +16,25 @@ The primary objective of this project is to create an efficient churn prediction
 ## Approach
 Our approach involves implementing machine learning techniques for churn prediction. We will explore and compare the performance of two popular algorithms: Logistic Regression, Decision Trees, Random Forest, and Support Vector Machines (SVM).
 
+**From thoroughly examining the dataset, we came out with the following analytical questions:**
+
+* What is the correlation between phone service and churn?
+* Do charges contribute to customer churn?
+* What is the average tenure of customers?
+* How is customer churn aligned with whether a customer has a partner and dependents or not?
+* Does being a senior citizen contribute significantly to churn?
+* Is customer retention heavily dependent on customer's access to tech support?
+* What effect does online security have on tenure?
+* What factors/variables significantly contribute to customer churn?
+
+## **Hypothesis Testing**
+
+Hypothesis 1<br>
+_**Null:**_ Total charges do not contribute to the churn rate among customers.<br>
+_**Alternate:**_ Total charges significantly contribute to the churn rate among customers.
+
+Hypothesis 2 <br>
+_**Null:**_ Customer churn rate does not depend on multiple services subscription.<br>
+_**Alternate:**_ Customer churn rate significantly depends on multiple services subscription.
+
 
